@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  margin-left: 15px;
+}
+
+.pulsar {
+  overflow: visible !important;
+  display: block;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line {
+  fill: black;
+  stroke: white;
+  stroke-width: 1.5px;
+}
+
+.text {
+  display: none;
+  margin: 20px;
+  width: 400px;
+  padding: 0 20px;
+  position: absolute;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, .8);
+  color: white;
+}
+
+.text a {
+  pointer-events: all;
+  color: white;
+  text-decoration: underline;
+}
+
+.glyphicon {
+  margin-top: 15px;
+
+  cursor: pointer;
+}
+
+.displayed {
+  color: white;
+}
